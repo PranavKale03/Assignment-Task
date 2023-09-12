@@ -1,0 +1,34 @@
+.itemCard{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #F4F5F5;
+}
+
+.card-right-section{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.btn-decrement{
+    color: #fff;
+    border-radius: 1px, 0px, 0px, 1px;
+    border-color: #C6AC8F;
+    background-color: #C6AC8F;
+}
+
+.btn-count{
+    border-color: #C6AC8F;
+}
+
+.btn-increment{
+    color: #fff;
+    border-radius: 1px, 0px, 0px, 1px;
+    background-color: #C6AC8F;
+}
+
+.btn-wishlist{
+    color: #001C30;
+    text-decoration: underline;
+}

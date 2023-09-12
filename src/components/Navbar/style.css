@@ -1,0 +1,42 @@
+.navbar-custom{
+    background-color: #EAE0D5;
+}
+
+.secureLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+.navbar-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF0F8;
+    padding: 20px;
+    gap: 6em;
+}
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 1.3em;
+}
+.navbar-item div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 100%;
+    background-color: #FFF;
+}
+.navbar-item p{
+    margin-top: 1rem;
+    color: #22333B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+}

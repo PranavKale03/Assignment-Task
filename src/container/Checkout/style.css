@@ -1,0 +1,85 @@
+.checkout-container{
+    display: flex;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #F4F5F5;
+    flex-direction: column;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #F4F5F5;
+}
+
+.coupon-header{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.coupon-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.coupon-details p{
+    color: #001C30;
+    font-size: 14px;
+}
+
+.priceDetails{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #F4F5F5;
+}
+
+.priceDetails div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pinContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.priceText{
+    color: #001C30;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.amount p{
+    color: #001C30;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+}
+
+.checkoutBtn{
+    display: flex;
+    height: 55px;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background: #22333B;
+    cursor: pointer;
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+.offerContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 8px 24px 8px 24px;
+    border: 1px solid #F4F5F5
+}
+
+.offerList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+}
+
+.offerList p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 1rem;
+
+}
+
+.offerDetails{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: justify;
+}
